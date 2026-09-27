@@ -1,4 +1,7 @@
-# React + TypeScript + Vite
+# Legacy React Portfolio
+
+> [!NOTE]
+> **Archived and superseded.** This earlier React/Vite portfolio is retained as a code snapshot. View the active portfolio at [cod4nitish.github.io/portfolio](https://cod4nitish.github.io/portfolio/) or its [source repository](https://github.com/Cod4Nitish/portfolio).
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
