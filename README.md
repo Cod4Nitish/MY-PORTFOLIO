@@ -1,4 +1,9 @@
-# Legacy React Portfolio
+<div align="center">
+  <h1>Legacy React Portfolio</h1>
+  <p>An earlier component-based portfolio implementation</p>
+  <img src="https://img.shields.io/badge/status-archived-6B7280?style=flat-square" alt="Status: archived" />
+  <img src="https://img.shields.io/badge/stack-React%20%7C%20TypeScript%20%7C%20Vite-149ECA?style=flat-square" alt="React TypeScript Vite" />
+</div>
 
 > [!NOTE]
 > **Archived and superseded.** This earlier React/Vite portfolio is retained as a code snapshot. View the active portfolio at [cod4nitish.github.io/portfolio](https://cod4nitish.github.io/portfolio/) or its [source repository](https://github.com/Cod4Nitish/portfolio).
