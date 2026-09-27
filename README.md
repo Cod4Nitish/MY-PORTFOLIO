@@ -12,6 +12,34 @@
 
 This is a preserved React portfolio implementation with reusable sections for a hero, header, about, projects, and contact. It shows an earlier component-based approach before the current portfolio.
 
+## Component architecture
+
+~~~mermaid
+flowchart LR
+    A[Browser] --> B[main.tsx]
+    B --> C[App router]
+    C --> D[Home component]
+    D --> E[Header and navigation]
+    D --> F[Hero, about and contact sections]
+    D --> G[Sample project and blog content]
+    F --> H[Reusable Radix-based UI components]
+    G --> I[Framer Motion interactions]
+~~~
+
+## Source-backed review notes
+
+| Area | What is in this snapshot |
+| --- | --- |
+| Routing | App.tsx serves one root route and conditionally exposes Tempo development routes. |
+| Sections | The main Home component imports Header, AboutSection, and ContactSection. |
+| Content | Project and blog entries are hard-coded sample content, so they should not be read as a verified client portfolio. |
+| UI stack | React 18, TypeScript, Vite, Tailwind CSS, Radix UI, Lucide icons, and Framer Motion are declared in package.json. |
+| Backend | Supabase is listed as a dependency, but no active Supabase client usage appears under src/. |
+
+## Honest limitations
+
+This is a UI prototype snapshot, not the maintained public portfolio. It intentionally remains archived because it contains seeded example content and early scaffolding alongside the reusable components.
+
 ## Stack
 
 - React, TypeScript, and Vite
