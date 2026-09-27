@@ -3,7 +3,24 @@
 > [!NOTE]
 > **Archived and superseded.** This earlier React/Vite portfolio is retained as a code snapshot. View the active portfolio at [cod4nitish.github.io/portfolio](https://cod4nitish.github.io/portfolio/) or its [source repository](https://github.com/Cod4Nitish/portfolio).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Snapshot
+
+This is a preserved React portfolio implementation with reusable sections for a hero, header, about, projects, and contact. It shows an earlier component-based approach before the current portfolio.
+
+## Stack
+
+- React, TypeScript, and Vite
+- Tailwind CSS, Radix UI, and Framer Motion
+- Reusable UI components and Storybook stories
+
+## Explore locally
+
+```bash
+npm install
+npm run dev
+```
+
+The original Vite and ESLint setup notes are kept below for historical context.
 
 Currently, two official plugins are available:
 
